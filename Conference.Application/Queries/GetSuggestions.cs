@@ -12,8 +12,6 @@ namespace Conference.Application.Queries
     {
         public class Query:IRequest<List<Model>>
         {
-            //public string AttendeeEmail { get; set; }
-            //public int ConferenceId { get; set; }
         }
 
         public class QueryHandler : IRequestHandler<Query, List<Model>>
